@@ -1,0 +1,15 @@
+# Ignore all Rust build files (target directories)
+target/
+
+# Ignore Go build files
+*.exe
+*.out
+*.o
+*.a
+*.so
+*.dSYM
+vendor/
+
+# Ignore all other Rust and Go build directories and files in subdirectories
+**/target/
+**/vendor/
